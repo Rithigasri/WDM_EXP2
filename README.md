@@ -1,13 +1,14 @@
-### EX2 Generating Association Rules for Employee dataset using Apriori Algorithm
-### DATE: 
-### AIM: To generate associate rules for the employee dataset using Apriori Algorithm.
-### Description:
+# EXPERIMENT 02: GENERATING ASSOCIATION RULES FOR EMPLOYEE DATASET USING APRIORI ALGORITHM
+## DATE: 17.02.2024
+## AIM: 
+To generate associate rules for the employee dataset using Apriori Algorithm.
+## DESCRIPTION:
 In data mining, association rule learning is a popular and well researched method for discovering interesting
 relations between variables in large databases. It can be described as analyzing and presenting strong rules discovered
 in databases using different measures of interestingness. In market basket analysis association rules are used and they
 are also employed in many application areas including Web usage mining, intrusion detection and bioinformatics.
 Creation of Buying Table:
-### Procedure:
+## PROCEDURE:
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Type the following training data set with the help of Notepad for Buying Table.
 
@@ -41,10 +42,16 @@ G40,high,yes,excellent,yes
 6) In that dialog box there are four modes, click on explorer.
 7) Explorer shows many options. In that click on ‘open file’ and select the arff file
 8) Click on edit button which shows buying table on weka.
-### OUTPUT:
+## OUTPUT:
+### BUYING DATASET:
+![output2a1](https://github.com/Rithigasri/WDM_EXP2/assets/93427256/8fafd08e-150f-4c3f-b14f-f09af8bd792e)
+### BANKING DATASET:
+![output2b1](https://github.com/Rithigasri/WDM_EXP2/assets/93427256/b0ef0ebc-dc02-40a5-99d9-d554d842fc60)
+### EMPLOYEE DATASET:
+![output2c1](https://github.com/Rithigasri/WDM_EXP2/assets/93427256/650c8f2a-e35e-441f-8ecd-cbc3f6908344)
 
 
-### Procedure for Association Rules:
+## PROCEDURE FOR ASSOCIATION RULES:
 1) Open Start -> Programs -> Accessories -> Notepad
 2) Open explorer.
 3) Click on open file and select buying.arff
@@ -52,6 +59,13 @@ G40,high,yes,excellent,yes
 5) Select Choose button and then click on Apriori Algorithm.
 6) Click on Start button and output will be displayed on the right side of the window.
 
-### OUTPUT:
+## OUTPUT:
+### BUYING DATASET:
+![output2a2](https://github.com/Rithigasri/WDM_EXP2/assets/93427256/5174ea4e-e0cc-4dba-91ff-dfd63c3da8a9)
+### BANKING DATASET:
+![output2b2](https://github.com/Rithigasri/WDM_EXP2/assets/93427256/ace02a58-1891-4c33-9249-0d6bdc1f8b07)
+### EMPLOYEE DATASET:
+![output2c2](https://github.com/Rithigasri/WDM_EXP2/assets/93427256/7a24c6d3-0e27-4b50-9fed-54ece8c5ee1e)
 
-### RESULT: 
+## RESULT: 
+Thus, generation of association rules using apriori algorithm is executed succesfully.
